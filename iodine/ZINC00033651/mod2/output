@@ -1,0 +1,138 @@
+
+ -----------------------------------------------
+      Restrained ESP Fit 2.3  Amber 4.1
+ -----------------------------------------------
+ Resp charges for organic molecule                                               
+ -----------------------------------------------
+
+
+ inopt       =     0   ioutopt     =     1
+ nmol        =     1   iqopt       =     2
+ ihfree      =     1   irstrnt     =     1
+ iunits      =     0   qwt         =   0.00100000
+ wtmol(1) =     1.000000
+ subtitle:
+
+Resp charges for organic molecule                                               
+ich =   0  iuniq =  14
+    1    6    0
+    2    8  -99
+    3    6  -99
+    4    6  -99
+    5    6  -99
+    6   16  -99
+    7    7  -99
+    8   53  -99
+    9    6  -99
+   10    7  -99
+   11    1    0
+   12    1   11
+   13    1   11
+   14    0    0
+ new q0 values to be read  14
+
+  ----------------------------------------------------------------------------
+     ATOM                       COORDINATES                         CHARGE
+                       X             Y                Z
+  ----------------------------------------------------------------------------
+  ----------------------------------------------------------------------------
+
+
+ Charge on the molecule(ich) =    0
+ Total number of atoms (iuniq)     =   14
+ Weight factor on initial charge restraints(qwt)=     0.10000D-02
+
+
+  there are  1 charge constraints:
+
+
+     1       1
+     2       1
+     3       1
+     4       1
+     5       1
+     6       1
+     7       1
+     8       1
+     9       1
+    10       1
+    11       1
+    12       1
+    13       1
+    14       1
+
+ Reading esp"s for molecule   1
+ total number of atoms      =    14
+ total number of esp points =  3674
+
+
+ center     X       Y       Z 
+    1  -0.8513771E+01  -0.1123348E+00   0.6878603E-03
+    2  -0.6174568E+01   0.1263269E+01   0.2267671E-03
+    3  -0.4060394E+01  -0.1113086E+00   0.1606267E-03
+    4  -0.1634526E+01   0.1157584E+01  -0.3269226E-03
+    5   0.2638473E+00  -0.6273512E+00   0.2513336E-03
+    6  -0.1039209E+01  -0.3614496E+01  -0.9637603E-03
+    7  -0.4045595E+01  -0.2588875E+01   0.4270781E-03
+    8   0.4172044E+01   0.4968090E-02   0.2381055E-03
+    9  -0.1336497E+01   0.3824138E+01  -0.6519555E-03
+   10  -0.1112928E+01   0.6010941E+01  -0.7351034E-03
+   11  -0.8654658E+01  -0.1301634E+01  -0.1684201E+01
+   12  -0.8654338E+01  -0.1301025E+01   0.1686030E+01
+   13  -0.9987723E+01   0.1326315E+01   0.5688075E-03
+   14   0.6757424E+01   0.4232647E+00   0.2293547E-03
+ Initial ssvpot =     0.512
+
+
+ Number of unique UNfrozen centers=    3
+
+ Non-linear optimization requested.
+ qchnge =    0.7350912170E-01
+ qchnge =    0.1839213951E-03
+ qchnge =    0.6993467976E-06
+
+ Convergence in    2 iterations
+
+
+Resp charges for organic molecule                                               
+
+          Point Charges Before & After Optimization
+
+    no.  At.no.    q(init)       q(opt)     ivary    d(rstr)/dq
+    1   6      -0.041285      -0.021611      0       0.009774
+    2   8      -0.372130      -0.372130    -99       0.002595
+    3   6       0.586872       0.586872    -99       0.001680
+    4   6       0.015108       0.015108    -99       0.009888
+    5   6      -0.145459      -0.145459    -99       0.005665
+    6  16       0.204390       0.204390    -99       0.004395
+    7   7      -0.467188      -0.467188    -99       0.002093
+    8  53      -0.074273      -0.074273    -99       0.008028
+    9   6       0.286685       0.286685    -99       0.003294
+   10   7      -0.407370      -0.407370    -99       0.002384
+   11   1       0.082302       0.089002      0       0.000000
+   12   1       0.082314       0.089002     11       0.000000
+   13   1       0.120446       0.089002     11       0.000000
+   14   0       0.129589       0.127969      0       0.006157
+
+ Sum over the calculated charges:      0.000
+
+        Statistics of the fitting:
+  The initial sum of squares (ssvpot)                      0.512
+  The residual sum of squares (chipot)                     0.009
+  The std err of estimate (sqrt(chipot/N))               0.00159
+  ESP relative RMS (SQRT(chipot/ssvpot))                 0.13436
+
+ Center of Mass (Angst.):
+
+ X  =   0.00000      Y  =   0.00000      Z  =   0.00000
+
+ Dipole (Debye):
+
+ X  =  -0.23132      Y  =  -3.47125      Z  =  -0.00027
+
+ Dipole Moment (Debye)=   3.47895
+
+ Quadrupole (Debye*Angst.):
+
+ Qxx =  50.05647     QYY = -48.50406     QZZ =  -1.55241
+ Qxy =   2.32969     QXZ =  -3.59425     QYZ =  -3.58326
